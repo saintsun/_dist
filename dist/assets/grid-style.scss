@@ -1,0 +1,52 @@
+$icons-path: "./icons/";
+
+// changes the default icon color
+$icon-color: #ccc;
+
+// changes the icon secondary color (checkbox background)
+$alt-icon-color: #000;
+
+// changes the selected checkbox check mark color
+$accent-color: #FFFFF1;
+
+$header-height: 50px;
+$row-height: 40px;
+$row-border-width: 1px;
+$hover-color: cornsilk;
+$header-background-color :#636c72;
+$secondary-foreground-color:#FFF;
+$secondary-font-size:12.5px;;
+$header-icon-size:12px;
+$border-color:transparent;
+$odd-row-background-color:#f3f3f3;
+
+$ag-range-selected-color-1: rgb(250, 235, 215);
+$ag-range-selected-color-2: darken($ag-range-selected-color-1, 10%);
+$ag-range-selected-color-3: darken($ag-range-selected-color-1, 20%);
+$ag-range-selected-color-4: darken($ag-range-selected-color-1, 30%);
+$cell-horizontal-border:1px solid rgba(230, 230, 230, 0.7);
+
+
+// for example purposes, remove margin and padding of the grid and also removing the outline from focused items.
+
+.ag-theme-balham .ag-cell {
+  line-height: 25px;
+}
+.ag-theme-balham .ag-header-cell-label {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.ag-theme-balham .ag-header-cell, .ag-theme-balham .ag-header-group-cell {
+  border-right: 1px solid #949494;
+}
+.ag-header-row:last-child {
+  background: #a2abb1;
+  input{
+    background: #ececec !important;
+    border: 1px solid #e4e4e4 !important;
+  }
+}
+.ag-header {
+  border-bottom:none!important;
+}
